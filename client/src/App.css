@@ -1,0 +1,232 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+button {
+  color: 'black';
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.flex-container {
+  position: relative;
+  display: 'flex';
+  gap: '10px';
+}
+
+.page-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light grey background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.course-title:hover {
+  color: #007bff;
+  /* You can add other styles such as text-decoration to underline if you wish */
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* High z-index to be on top of other content */
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button-wide {
+  max-width: 1050px; /* Set maximum width to 1010px */
+  width: 100%; /* Use 100% of the container width up to the max-width */
+  background-color: #007bff;
+  color: white;
+  display: block; /* Block-level elements respect the width properties */
+  margin: 0 auto; /* This will center the button if it's within a larger container */
+  /* Other styling properties, like padding, border, etc. */
+}
+
+.form-group button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.filter-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light grey background */
+  border-radius: 8px; /* Rounded corners */
+  margin: 20px auto; /* Centering horizontally */
+  max-width: 1010px; /* Maximum width */
+}
+
+.filter-menu input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-class-page {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light grey background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-class-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-class-page .form-group {
+  margin-bottom: 10px;
+}
+
+.add-class-page .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.add-class-page .form-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-class-page .form-group input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-class-page .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-class-page .form-group button.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-class-page .form-group button.submit-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.subject-dropdown {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+  overflow-y: auto;
+  /* Add other styling as necessary */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}

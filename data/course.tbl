@@ -1,8 +1,82 @@
-MATH|005|Preparatory Calculus|Preparation for calculus. Analyzing data by means of functions (linear, quadratic, polynomial, logarithmic, exponential and trigonometric) and graphs with an emphasis on mathematical modeling of real-world applications.
-MATH|011|Calculus I|Introduction to differential and integral calculus of functions of one variable, including exponential, logarithmic and trigonometric functions, emphasizing conceptual understanding and applying mathematical concepts to real-world problems (approximation, optimization). Course does not lead to MATH 23, 24.
-MATH|012|Calculus II|Continuation of MATH 011. Introduction to integral calculus of functions of one variable and differential equations, emphasizing conceptual understanding and applying mathematical concepts to real-world problem. Course does not lead to Math 23, 24.
-MATH|021|Calculus I for Physical Sciences and Engineering|An introduction to differential and integral calculus of functions of one variable. Elementary functions such as the exponential and the natural logarithm, rates of change and the derivative with applications to physical sciences and engineering.
-MATH|022|Calculus II for Physical Sciences and Engineering|Continuation of MATH 021. Analytical and numerical techniques of integration with applications, infinite sequences and series, first order ordinary differential equations.
-MATH|023|Vector Calculus|Calculus of several variables. Topics include parametric equations and polar coordinates, algebra and geometry of vectors and matrices, partial derivatives, multiple integrals, and introduction to the theorems of Green, Gauss, and Stokes.
-MATH|024|Linear Algebra and Differential Equations|Introduces ordinary differential equations, systems of linear equations, matrices, determinants, vector spaces, linear transformations and linear systems of differential equations.
-MATH|032|Probability and Statistics|Concepts of probability and statistics. Conditional probability, independence, random variables, distribution functions, descriptive statistics, transformations, sampling errors, confidence intervals, least squares and maximum likelihood. Exploratory data analysis and interactive computing.
+ANTH|101|Introduction to Anthropology|Study of human societies and cultures and their development.
+ANTH|102|Cultural Anthropology|Examination of culture and diversity among human societies.
+BIOE|110|Principles of Bioengineering|Introduction to the interdisciplinary field of bioengineering.
+BIOE|120|Biomechanics|Study of mechanical principles in biological systems.
+BIO|150|General Biology|Comprehensive overview of fundamental biological concepts.
+BIO|160|Cell Biology|Exploration of cell structure and function.
+CHEM|101|General Chemistry|Fundamentals of chemical principles and reactions.
+CHEM|102|Organic Chemistry|Study of the structure, properties, composition, and reactions of organic compounds.
+CHN|101|Introductory Chinese|Basic skills in speaking, reading, and writing Chinese.
+CHN|102|Intermediate Chinese|Further development of Chinese language skills with a focus on complex structures.
+CE|201|Civil Engineering Fundamentals|Introduction to the basics of civil engineering and its various specializations.
+CE|202|Structural Engineering|Study of structural analysis and design in civil engineering.
+COGS|101|Cognitive Science Foundations|Exploration of the interdisciplinary study of the mind and its processes.
+COGS|102|Neuroscience of Cognition|Examination of the neural basis for cognitive processes.
+CRS|201|Community Research Methods|Methods and techniques of research in community settings.
+CRS|202|Service Learning|Integration of community service with academic learning.
+CSE|101|Intro to Computer Science|Foundations of computer science and programming.
+CSE|102|Data Structures and Algorithms|Study of data structures and algorithms in computing.
+CRES|101|Intro to Critical Race & Ethnic Studies|Examination of race and ethnicity with a critical lens.
+CRES|102|Ethnicity in America|Study of ethnic groups and relationships in the United States.
+ECON|101|Principles of Economics|Introduction to the principles of micro and macroeconomics.
+ECON|102|Global Economics|Study of economics in a global context.
+EDUC|101|Foundations of Education|Study of the historical, philosophical, and social foundations of education.
+EDUC|102|Modern Educational Practices|Examination of contemporary issues and practices in education.
+EECS|101|Electrical Engineering Fundamentals|Basics of electrical engineering, including circuit analysis.
+EECS|102|Intro to Computer Engineering|Introduction to the principles of computer engineering.
+ENGR|101|Engineering Principles|Overview of engineering principles and problem-solving techniques.
+ENGR|102|Engineering Design|Study of design processes in engineering.
+ENG|101|English Composition|Development of writing skills and analytical thinking.
+ENG|102|Introduction to Literature|Exploration of different genres and periods in literature.
+ENVE|101|Intro to Environmental Engineering|Study of environmental engineering and sustainable practices.
+ENVE|102|Water Resources Engineering|Examination of the engineering of water resources.
+ES|501|Environmental Systems Analysis|Analysis of environmental systems and their interactions.
+ES|502|Sustainable Systems|Study of sustainability in environmental systems.
+ESS|301|Environmental Systems Science|Exploration of the scientific principles of environmental systems.
+ESS|302|Ecosystem Science|Study of ecosystems and their dynamics.
+FRE|101|Introductory French|Basic French language skills in speaking, reading, and writing.
+FRE|102|Intermediate French|Further development of French language skills with a focus on fluency.
+GASP|101|Global Arts Perspectives|Introduction to global arts and their cultural contexts.
+GASP|102|Contemporary Art Trends|Examination of contemporary trends in the global art scene.
+HS|201|Heritage Studies Fundamentals|Exploration of the field of heritage studies.
+HS|202|Cultural Heritage Management|Study of the management and preservation of cultural heritage.
+HIST|101|World History|Survey of world history from ancient times to the present.
+HIST|102|American History|Comprehensive study of the history of the United States.
+IH|301|Interdisciplinary Humanities Approaches|Exploration of interdisciplinary methods in the humanities.
+IH|302|Humanities and Society|Study of the role of humanities in understanding society.
+JPN|101|Introductory Japanese|Basic skills in speaking, reading, and writing Japanese.
+JPN|102|Intermediate Japanese|Continued development of Japanese language skills.
+MGMT|101|Principles of Management|Introduction to the theories and practices of management.
+MGMT|102|Organizational Behavior|Study of behavior in organizational settings.
+MSE|201|Materials Science Fundamentals|Basics of materials science and engineering.
+MSE|202|Biomaterials|Study of materials used in biological and medical applications.
+MATH|101|Basic Mathematics|Fundamentals of mathematics, including algebra and geometry.
+MATH|102|Intermediate Mathematics|Further study of mathematical concepts and their applications.
+ME|201|Mechanical Engineering Principles|Introduction to the principles of mechanical engineering.
+ME|202|Thermodynamics|Study of the principles of thermodynamics in mechanical engineering.
+MIST|301|Management of Innovation and Technology|Strategies for managing innovation and technology in organizations.
+MIST|302|Sustainable Technology|Examination of sustainable technologies and their management.
+NSED|401|Natural Sciences Education Methods|Methods and strategies for teaching natural sciences.
+NSED|402|Science Curriculum Development|Development of science curricula for educational settings.
+PHIL|101|Introduction to Philosophy|Exploration of fundamental philosophical questions and theories.
+PHIL|102|Ethics|Study of ethical theories and their applications.
+PHYS|101|General Physics|Fundamentals of physics, including mechanics and thermodynamics.
+PHYS|102|Electricity and Magnetism|Study of the principles of electricity and magnetism.
+POLI|101|Political Science Fundamentals|Introduction to the study of political science.
+POLI|102|Comparative Politics|Comparative study of political systems and governments.
+PSY|101|General Psychology|Overview of psychological theories and practices.
+PSY|102|Developmental Psychology|Study of human psychological development across the lifespan.
+PH|201|Public Health Principles|Introduction to the principles and practices of public health.
+PH|202|Epidemiology|Study of the distribution and determinants of health and diseases.
+QSB|301|Quantitative Biology|Quantitative approaches to understanding biological systems.
+QSB|302|Systems Biology|Study of biological systems and their interactions.
+SOC|101|Introduction to Sociology|Examination of society and social behavior.
+SOC|102|Social Problems|Analysis of contemporary social problems and their impact.
+SPAN|101|Introductory Spanish|Basic skills in speaking, reading, and writing Spanish.
+SPAN|102|Intermediate Spanish|Further development of Spanish language skills.
+SPRK|101|Spark Program Introduction|Introduction to the Spark program and its objectives.
+SPRK|102|Innovation and Creativity|Exploration of innovation and creativity in various fields.
+USTU|101|Undergraduate Studies Foundations|Foundations and skills for successful undergraduate studies.
+USTU|102|Academic Planning and Strategy|Strategies for academic planning and success.
+WRI|101|Writing Fundamentals|Development of fundamental writing skills and techniques.
+WRI|102|Advanced Writing|Advanced techniques in writing and composition.
